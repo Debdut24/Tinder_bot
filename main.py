@@ -6,7 +6,6 @@ import time
 
 phone_no = os.environ.get("PHONE_NO")
 password = os.environ.get("PASSWORD")
-print(phone_no,password)
 
 driver_path = "D:/chromedriver.exe"
 driver = webdriver.Chrome(executable_path = driver_path)
